@@ -16,3 +16,5 @@ for x in list1:
     for o in list:
         if x in o:
             print(o)
+            if x.casefold() == o.casefold():
+                print(o)
