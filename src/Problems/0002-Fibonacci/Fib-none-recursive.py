@@ -7,8 +7,6 @@ def fibonacci(n):
         return 1
     else:
         return fibonacci(n -1) + fibonacci(n -2)
-
-a = fibonacci (c)
 y = 1
 while y < c:
     a = fibonacci (y)
