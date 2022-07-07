@@ -26,8 +26,8 @@ sorts = sorted(list1 ,key=lambda tup: -1*tup[1])
 o = 0
 while o < (len(sorts)):
     if sorts[o][1] > 1:
-        for r in range(0,len(sorts[1])-1):
-            sorts.remove(sorts[o])
+        for r in range(0,sorts[o][1]-2):
+            sorts.remove(sorts[r])
     o += 1
 print(f'Two numbers with highest count aresorts,{sorts[0][0]} and {sorts[1][0]}')
 print('Sum of all is',f)
